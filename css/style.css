@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    max-width: 1852px;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 400; 
+    font-size: 36px;
+    color: #000000;
+
+}
+
+p {
+    font-weight: 400; 
+    margin-bottom: 70px;
+}
+
+h1 {
+    font-family: 'Poppins-bold', sans-serif;
+    margin: 35px 0 80px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    /* font-weight: 700;   */
+}
+
+h2 {
+    font-family: 'Poppins-regular', sans-serif;
+    margin: 110px 0 80px;
+    text-transform: uppercase;
+    /* font-weight: 400;   */
+}
+
+small {
+    font-size: .5em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header span:last-child {
+    font-size: 20px;
+    opacity: 0.2;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.header img {
+    height: 56px;
+    width: 244px;
+}
+
+.border {
+    display: inline-block;
+    background-color: #C4C4C4;
+    width: 18px;
+    height: 14px;
+}
+
+.eng {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.04em;
+    color: red;
+    /* border: 1px solid #000000; */
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url("../fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Poppins-regular';
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+}
